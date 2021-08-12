@@ -1,0 +1,38 @@
+.cover{
+    position: absolute;
+    background-color: rgba(197, 197, 197, 0.767);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+}
+
+.btn-cover{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-cover:hover{
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+}
+.cover-message{
+    border-radius: 20px;
+    background-color: rgba(231, 226, 226, 0.938);
+    position: relative;
+    width: 50vw;
+    height: 30vh;
+    margin-top: 30vh;
+    margin-left:calc(100vw/2 - 50vw/2) ;
+}
+
+.msg-cvr{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
